@@ -1,5 +1,7 @@
 ## How to setup WordPress on Heroku with the Heroku Buildpack for PHP
 
+> Cloned from the original repo by ellefsen: https://github.com/ellefsen/wordpress-heroku-php
+
 This will set up a fresh WordPress install on Heroku with the newly released [Heroku Buildpack for PHP](https://github.com/heroku/heroku-buildpack-php).
 
 * `nginx` - Nginx for serving web content.
