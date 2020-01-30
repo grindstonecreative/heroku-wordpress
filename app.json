@@ -28,6 +28,7 @@
     "memcachier",
     "papertrail",
     "newrelic",
-    "rollbar"
+    "rollbar",
+    "scheduler"
   ]
 }
