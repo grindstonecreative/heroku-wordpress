@@ -1,7 +1,5 @@
 ## How to setup WordPress on Heroku with the Heroku Buildpack for PHP
 
-> Cloned from the original repo by ellefsen: https://github.com/ellefsen/wordpress-heroku-php
-
 This will set up a fresh WordPress install on Heroku with the newly released [Heroku Buildpack for PHP](https://github.com/heroku/heroku-buildpack-php).
 
 * `nginx` - Nginx for serving web content.
@@ -141,6 +139,8 @@ If you don't have foreman installed, you can do so with `gem install foreman` as
 If you try to develop locally without syncing your external MemCachier envvars you might see a 500 error or a *You do not have sufficient permissions to access this page.* - message. Workaround is to simply remove object-cache.php and advanced-cache.php from the content dir while doing local dev. In a future release I'll try to have these files added on deploy with Composer.
 
 ## Sources
+
+> Cloned from the original repo by ellefsen: https://github.com/ellefsen/wordpress-heroku-php
 
 This would not have been possible without the work and resources provided by the following people:
 
