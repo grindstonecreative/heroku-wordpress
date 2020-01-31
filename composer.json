@@ -19,13 +19,13 @@
   }],
   "require": {
     "php": ">=5.3.0",
-    "wordpress/wordpress": "5.3.2",
+    "wordpress/wordpress": "*",
     "fancyguy/webroot-installer": "1.0.0",
     "vlucas/phpdotenv": "^2.4"
   },
   "extra": {
     "webroot-dir": "public/wp",
-    "webroot-package": "wordpress/wordpress",
+    "webroot-package": "wordpress",
     "installer-paths": {
       "public/content/plugins/{$name}/": [
         "type:wordpress-plugin"
